@@ -3,12 +3,12 @@
 ## O que faz 
 O classificador de sentimento a partir de uma base de dados pega do kaggle, faz o processamento de aprendizagem utilizando Naive Bayes e então consegue pegar textos e classificá-lo em 6 sentimentos, sendo eles:
 
-- Sadness
-- Joy
-- Love
-- Anger
-- Fear
-- Surprise
+- `Sadness`
+- `Joy`
+- `Love`
+- `Anger`
+- `Fear`
+- `Surprise`
 
 ## Objetivo 
 O objetivo desse programa é divulgar como um classificador de sentimentos pode ser feito de forma simples para entusiastas do tema
@@ -148,7 +148,6 @@ def emotionClassify(dict, occurrencies, phrase):
 
     return result.index(max(result))
 ```
-
 
 
 
