@@ -77,7 +77,7 @@ def add_dict(dict, node):
         dict[word][node.emotion] += 1
 ```
 
-### 5 - Pego todas as ocorrências de cada sentimento 
+### 5 - Pega-se todas as ocorrências de cada sentimento 
 ```python 
 dict = {}
 dict, occurrencies = getParams()
